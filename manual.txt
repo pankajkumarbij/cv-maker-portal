@@ -1,0 +1,27 @@
+###########################################################################################################################################################################
+first import the database backup file in your system.
+        $ sudo su postgresql
+        $ psql database_name < /home/pankaj/backup/dbexport.pgsql;(backup path and file name)
+        
+put the source code folder into :- /var/www/html
+
+Open your browser and give url :- http://localhost/assignment1
+
+Then you see interface of CV generation portal
+
+follow given steps below for first time signup new user:-
+        1.first need to signup on click signup button
+        2.Login the registered user by click on signin button
+        3.click on create_cv button and fill details.
+        4.choose your templates by click on show_cv button.
+        5.print/download your cv.
+        6.logout by clicking on logout button
+for existing user:-(you can use existing user: username:pankaj and password:12345)
+        1.Click on signin buttion and login by username and password
+        2.Now you can directly click on show_cv and download in desire formats.
+        3.you can update details by clicking on update_cv button.
+        5.update some values as per your requirements and download updated cv formats.
+        4.logout by clicking on logout button
+###########################################################################################################################################################################
+
+
